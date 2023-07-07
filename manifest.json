@@ -1,0 +1,22 @@
+{
+    "manifest_version": 3,
+    "name": "Diablo 4 World Boss Timer",
+    "version": "1.0",
+    "description": "A simple countdown timer for the next world boss spawn in Diablo 4.",
+    "permissions": [
+      "storage"
+    ],
+    "action": {
+      "default_popup": "popup.html",
+      "default_icon": "d4icon-128.png"
+    },
+    "background": {
+      "service_worker": "background.js"
+    },
+    "icons": {
+      "16": "d4icon-16.png",
+      "32": "d4icon-32.png",
+      "48": "d4icon-48.png",
+      "128": "d4icon-128.png"
+    }
+}
